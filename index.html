@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adeogun NifemiSSS | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        /* Global Styles */
+    <style>
         :root {
             --primary-color: #4a6cf7;
             --secondary-color: #6f42c1;
@@ -88,8 +87,7 @@
             background: var(--primary-color);
             border-radius: 2px;
         }
-        
-        /* Header */
+
         header {
             position: fixed;
             top: 0;
@@ -139,8 +137,7 @@
             display: none;
             cursor: pointer;
         }
-        
-        /* Hero Section */
+
         .hero {
             padding-top: 150px;
             padding-bottom: 80px;
@@ -213,8 +210,7 @@
             margin-bottom: 15px;
             color: var(--gray-color);
         }
-        
-        /* Skills Section */
+        
         .skills-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -244,8 +240,7 @@
             margin-bottom: 15px;
             color: var(--dark-color);
         }
-        
-        /* Projects Section */
+        
         .projects-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -293,8 +288,7 @@
             color: var(--gray-color);
             margin-bottom: 15px;
         }
-        
-        /* Contact Section */
+        
         .contact-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -369,8 +363,7 @@
             border: 1px solid #f5c6cb;
             display: block;
         }
-        
-        /* Admin Section */
+        
         .admin-section {
             background: white;
             padding: 30px;
@@ -419,8 +412,7 @@
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
         }
-        
-        /* Footer */
+        
         footer {
             background: var(--dark-color);
             color: white;
@@ -482,8 +474,7 @@
             padding-top: 20px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
-        
-        /* Responsive Design */
+        
         @media (max-width: 992px) {
             .hero-content {
                 flex-direction: column-reverse;
@@ -537,8 +528,7 @@
         }
     </style>
 </head>
-<body>
-    <!-- Header -->
+<body>
     <header>
         <div class="container">
             <nav class="navbar">
@@ -557,7 +547,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
@@ -591,8 +580,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Skills Section -->
+
     <section id="skills" class="section" style="background: linear-gradient(135deg, #f5f7ff 0%, #e3e6ff 100%);">
         <div class="container">
             <h2 class="section-title">My Skills</h2>
@@ -631,7 +619,6 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="section">
         <div class="container">
             <h2 class="section-title">My Projects</h2>
@@ -669,8 +656,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
+
     <section id="contact" class="section" style="background: linear-gradient(135deg, #f5f7ff 0%, #e3e6ff 100%);">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
@@ -707,7 +693,6 @@
                     </div>
                 </div>
 
-            <!-- Admin Section (Hidden by default) -->
             <div id="adminSection" class="admin-section">
                 <h3>Admin Panel - Messages</h3>
                 <div class="message-list" id="messageList">
@@ -716,8 +701,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Login Modal (Hidden by default) -->
+
     <div id="loginModal" class="login-form" style="display: none;">
         <h2>Admin Login</h2>
         <form id="loginForm">
@@ -733,8 +717,7 @@
         </form>
         <div id="loginMessage" class="form-message"></div>
     </div>
-
-    <!-- Footer -->
+
     <footer>
         <div class="container">
             <div class="footer-container">
